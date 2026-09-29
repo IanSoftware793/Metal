@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/Metal.svg" alt="Metal logo" width="90" height="90">
+  <img src="./docs/Metal.png" alt="Metal logo" width="90" height="90">
 </p>
 
 <p align="center">Material Design Components in Pure CSS</p>
