@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="./docs/m.svg" alt="Matter M logo" width="90" height="90">
+  <img src="./docs/Metal.svg" alt="Matter M logo" width="90" height="90">
 </p>
-
-<h1 align="center">Metal</h1>
 
 <p align="center">Material Design Components in Pure CSS</p>
 
