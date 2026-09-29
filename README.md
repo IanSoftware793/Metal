@@ -2,7 +2,7 @@
   <img src="./docs/m.svg" alt="Matter M logo" width="90" height="90">
 </p>
 
-<h1 align="center">Matter</h1>
+<h1 align="center">Metal</h1>
 
 <p align="center">Material Design Components in Pure CSS</p>
 
@@ -204,13 +204,7 @@ Matter is built with theming in mind. Its components can be customized by specif
   
 ⚡️ Matter is plasma. It's just CSS relying almost exclusively on class selectors making it lightning fast.
 
-## 💬 Contact
+## 💬 Contact or sign
 
 If you have questions, feedback or anything to share you can get in touch via:
-* Twitter [@finnhvman](https://twitter.com/finnhvman)
-* Spectrum [@finnhvman](https://spectrum.chat/users/finnhvman)
-* or [submit an issue](https://github.com/finnhvman/matter/issues)
-
-## 🙏 Special Thanks To
-
-* [Scott O'Hara](https://twitter.com/scottohara) (accessibility)
+* Atabook (https://iansoftware.atabook.org/)
