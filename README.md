@@ -10,18 +10,21 @@
 
 ## 🎬 Get Started
 
-1. Get Matter in one of the following ways:<br/><br/>
-    **Normal build** from CDN (include this in `<head>`):
+1. Get Metal in one of the following ways:<br/><br/>
+    **Normal build** from W3.CSS (include this in `<head>`):
     ```html
-    <link href="https://res.cloudinary.com/finnhvman/raw/upload/matter/matter-0.2.2.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     ```
-    **Minified build** from CDN (include this in `<head>`):
+    **Minified build** from W3.CSS (include this in `<head>`):
     ```html
-    <link href="https://res.cloudinary.com/finnhvman/raw/upload/matter/matter-0.2.2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
     ```
-    **Download a build** from the assets of a release in [Releases](https://github.com/finnhvman/matter/releases), and include it in your project
+    **Color build** from W3.CSS (include this in `<head>`):
+   ```html
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   '''
 
-2. Use the Markup and apply the Class of your choice:
+3. Use the Markup and apply the Class of your choice:
 
 ### Buttons
 ```html
@@ -123,6 +126,47 @@
 <!-- Typography Classes: matter-h1, ..., matter-h6, matter-subtitle1, matter-subtitle2, -->
 <!-- matter-body1, matter-body2, matter-button, matter-caption, matter-overline -->
 <p class="matter-body1">Your paragraph here</p>
+```
+
+### Cards
+```html
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<body class="w3-container">
+
+<h2>Colorful Cards</h2>
+<div class="w3-grid" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px">
+
+<div class="w3-card-4">
+<img src="img_md_sport.jpg" alt="Sport" style="width:100%;height:200px;object-fit:cover">
+<div class="w3-bar w3-yellow">
+<span class="w3-bar-item">Sport</span>
+<a class="w3-bar-item w3-button w3-right" href="javascript:void(0)"><i class="fa fa-caret-right"></i></a>
+</div>
+</div>
+<div class="w3-card-4">
+<img src="img_md_globe.jpg" alt="News" style="width:100%;height:200px;object-fit:cover">
+<div class="w3-bar w3-blue">
+<span class="w3-bar-item">News</span>
+<a class="w3-bar-item w3-button w3-right" href="javascript:void(0)"><i class="fa fa-caret-right"></i></a>
+</div>
+</div>
+<div class="w3-card-4">
+<img src="img_md_music.jpg" alt="Music" style="width:100%;height:200px;object-fit:cover">
+<div class="w3-bar w3-pink">
+<span class="w3-bar-item">Music</span>
+<a class="w3-bar-item w3-button w3-right" href="javascript:void(0)"><i class="fa fa-caret-right"></i></a>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
+
 ```
 
 ---
