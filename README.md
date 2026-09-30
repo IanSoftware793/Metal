@@ -169,6 +169,16 @@
 
 ```
 
+### Tabs
+```html
+<div class="w3-bar w3-theme">
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hover-white">Link 1</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hover-white">Link 2</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hover-white">Link 3</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hover-white">Link 4</a>
+</div>
+```
+
 ---
 
 Use standard HTML attributes like `autofocus`, `disabled`, `required`, etc. where applicable to further configure components.
@@ -199,6 +209,45 @@ Click the link of a component in the next section to find more examples of its u
   * [x] [Standard](./src/components/textfields/standard)
 * [x] [Tooltip](./src/components/tooltips)
 * [x] [Typography](./src/utilities/typography)
+
+### Wanna look like Android?
+Here's the Android HTML:
+```html
+<!DOCTYPE html>
+<html>
+<title>Android</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<div class="w3-container w3-padding-small w3-theme-d3">
+  <div class="w3-right">
+    <i class="fa fa-volume-up"></i>
+    <i class="fa fa-wifi"></i>
+    <i class="fa fa-battery-2"></i>
+    12:30
+  </div>
+</div>
+
+<div class="w3-bar w3-theme w3-xlarge">
+  <a class="w3-bar-item w3-button" href="#"><i class="fa fa-bars"></i></a>
+  <span class="w3-bar-item">Title</span>
+  <a class="w3-bar-item w3-button w3-right" href="#"><i class="fa fa-search"></i></a>
+</div>
+
+<div class="w3-bar w3-theme">
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hover-white">Link 1</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hover-white">Link 2</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hover-white">Link 3</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hover-white">Link 4</a>
+</div>
+
+</body>
+</html>
+
+```
 
 ## 🌐 Browser Support
 
